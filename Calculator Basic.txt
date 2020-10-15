@@ -1,0 +1,4 @@
+def calc(op, a ,b):
+    if str(op) in ("+", "-", "x","/"):
+        if (type(a) in ("float", "int") ) and (type(b) in ("float", "int"):
+            return a op b
