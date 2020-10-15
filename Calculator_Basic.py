@@ -1,13 +1,15 @@
 def calc(op, a ,b):
-    if str(op) in ("+", "-", "x","/"):
+    if str(op) in ("+", "-", "x","/", "^"):
         if str(op) == "+":
             return int(a) + int(b)
         elif str(op) == "-":
             return int(a) - int(b)
         elif str(op) == "x":
             return int(a) * int(b)
-        else:
+        elif:
             return float(a) / float(b)
+        else:
+            return int(a)^int(b)
     else:
         print("Have not inputted a valid operation")
 
